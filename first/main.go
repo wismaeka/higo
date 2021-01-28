@@ -3,11 +3,10 @@ package main
 import (
 	"fmt"
 	"log"
-	"os"
 )
 
 func main() {
-	fmt.Println("Hi, you can call me", os.Args[1])
+	//fmt.Println("Hi, you can call me", os.Args[1])
 
 	fmt.Print("Enter your name: \n")
 	var input string
